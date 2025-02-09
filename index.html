@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visit Vancouver</title>
+    <link rel="stylesheet" href="mystyle2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <section class="left-section">
+            <div class="left-up">
+                <figure>
+                    <img src="./images/VanLogo2.png" alt="VanLogo">
+                    <figcaption>Fig.1 - Vancouver logo.</figcaption>
+                </figure>
+
+
+                <h1>Vancouver city</h1>
+                <nav>
+                    <ul>
+                        <li><a href="#home"> <i class="fa fa-fw fa-home"></i>Home</a></li>
+                        <li><a href="#services"><i class="fa fa-cubes"></i>Services</a></li>
+                        <li><a href="#contact"><i class="fa fa-folder-open"></i>Contact</a></li>
+                        <li><a href="#about"><i class="fa fa-info-circle"></i>About</a></li>
+
+                    </ul>
+                </nav>
+                <br>
+                <hr>
+                <br>
+            </div>
+            <div class="left-bottom">
+
+                <h2>Upcoming Events:</h2>
+                <p>There are no upcoming events at this time.</p>
+                <form action="/search-events" method="post">
+                    <button id="mail-button" type="submit">Search for events</button>
+                </form>
+                <br>
+                <hr>
+                <br>
+
+                <h2>Recent News:</h2>
+                <p>There is no recent news at this time.</p>
+                <form action="/search-news" method="post">
+                    <button type="submit">Search for news</button>
+                </form>
+                <br>
+            </div>
+        </section>
+
+        <section class="right-section">
+            <div id="fix1">
+                <div id="float">
+                    <div class="right-top">
+                        <img class="specific-image" src="./images/hi.jpg" alt="VanCover">
+                    </div>
+                    <div id="welcome-msg">
+                        <div class="header">
+                            <h1>Welcome to Visit Vancouver!</h1>
+                        </div>
+                        <div class="subtext">
+                            <p>Visit Vancouver is your first choice to plan your time in Vancouver</p>
+                        </div>
+                    </div>
+                </div>
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="#Food">Food</a></li>
+                        <li><a href="#Gallery ">Gallery </a></li>
+                        <li><a href="#Facts">Facts</a></li>
+                        <li><a href="#More!">More!</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="between">
+                <h2><i class="fa fa-fw fa-envelope"></i>Email notifications</h2>
+                <p>Subscribe to receive email notifications about the latest events and news in Vancouver.</p>
+                <form action="/subscribe" method="post">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="username@email.com" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+            <br>
+            <hr>
+            <br>
+            <div class="content">
+                <div>
+                    <img src="./images/food.jpg" alt="food">
+                    <h3>Best restaurants in the city</h3>
+                    <p>There are many great restaurants in Vancouver. From sushi to pizza, you can find it all here.</p>
+                </div>
+                <div>
+                    <img src="./images/hiking.jpg" alt="hiking">
+                    <h3>Outdoor activities</h3>
+                    <p>Do you know where to spend times? Vancouver has many outdoor activities to offer. From hiking to
+                        skiing, check here.</p>
+                </div>
+                <div>
+                    <img src="./images/transportation.jpg" alt="transportation">
+                    <h3>Transportation system</h3>
+                    <p>Vancouver has a great transportation system. From buses to skytrains, check here.</p>
+                </div>
+                <div>
+                    <img src="./images/weather.jpg" alt="weather">
+                    <h3>Weather status</h3>
+                    <p>Keep yourself updated with the weather. Check the weather in Vancouver here.</p>
+                </div>
+            </div>
+
+        </section>
+    </div>
+    <hr>
+    <footer>
+        <div class="footerText">
+             Visit Vancouver&copy; 2025
+        <aside>Created by: Abdullah AlAsmy</aside>  COMP1537 Project
+        
+        </div>
+        <div class="social">
+            <ul>
+                <li><a href="#facebook"> <i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="#instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                <li><a href="#twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>
